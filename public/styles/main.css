@@ -1,0 +1,136 @@
+#display-area {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#newsFormArticle {
+    display: flex;
+    flex-direction: column;
+
+}
+#taskFormSection{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+button {
+    flex-wrap: wrap;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 20px;
+    max-width: 100px;
+    max-height: 160px;
+}
+
+.newsDiv {
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: lightblue;
+    border-style: solid;
+    border-color: black;
+    max-width: 2400px;
+    max-height: 180px;
+    padding-top: 5px;
+
+
+}
+
+
+#homePageArticle {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsEditDiv {
+    margin-left: 25px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#childDiv{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(227, 239, 243);
+    flex-wrap: wrap;
+    max-width: 240px;
+    max-height: 180px;
+    padding: 2px;
+    border: 2px solid black;
+}
+#editArticle{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    flex-wrap: wrap;
+    padding:2px;
+    border: 2px solid black;
+    float: left;
+    margin-left:260px;
+    max-height: 180px;
+    width: 350px;
+}
+.delete{
+    display: flex;
+    color: white;
+    font: bold;
+    align-content: center;
+    background-color: red;
+    width: 200px;
+    float: left;
+}
+#editButton{
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 200px;
+    background-color: blue;
+    float: right;
+}
+#save{
+    display: flex;
+    background-color:green;
+    text-align: center;
+    width: 200px;
+    float: left;
+}
+#taskForm{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px black solid;
+    padding: 2px 1px 1px 1px;
+}
+
+#messages-section {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    right: 0px;
+    width: 300px;
+    
+    padding: 10px;
+}
+
+#message--window {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    overflow-y: auto;
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 300px;
+    border: 3px solid #73AD21;
+}
+
+#home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
