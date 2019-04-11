@@ -9,7 +9,9 @@ export default {
         if (elementValue) {
             htmlElement.setAttribute("value", elementValue);
         }
-        htmlElement.textContent = elementTextContent;
+       if (elementTextContent){
+           htmlElement.textContent = elementTextContent;
+        }
         return htmlElement;
     },
     // Function to enable us to clear DOM.
